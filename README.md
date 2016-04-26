@@ -4,7 +4,7 @@
 [![Build Status](https://img.shields.io/travis/aarestu/currency-converter-php/master.svg?style=flat-square)](https://travis-ci.org/aarestu/currency-converter-php)
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/aarestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/aarestu/currency-converter-php/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/aarestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/aarestu/currency-converter-php)
-[![Total Downloads](https://img.shields.io/packagist/dt/aarestu/currency-converter-php.svg?style=flat-square)](https://packagist.org/packages/aarestu/currency-converter-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/aarestu/currency-converter.svg?style=flat-square)](https://packagist.org/packages/aarestu/currency-converter)
 
 Currency Converter PHP Library
 
