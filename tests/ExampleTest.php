@@ -2,15 +2,21 @@
 
 namespace League\Skeleton\Test;
 
+use AaRestu\CurrencyConverter\CurrencyConverter;
+
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {
 
 
     /**
-     * Test that true does in fact equal true
+     * Test get rate
      */
-    public function testTrueIsTrue()
+    public function testGetRate()
     {
-        $this->assertTrue(true);
+        $cc = new CurrencyConverter("USD");
+
+        $rate = $cc->getRate("IDR");
+
+        $this->assert(is_numeric($rate) && $rate > 0);
     }
 }

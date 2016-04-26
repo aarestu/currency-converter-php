@@ -1,16 +1,12 @@
-# League Skeleton
-
-[![Latest Version](https://img.shields.io/github/release/thephpleague/skeleton.svg?style=flat-square)](https://github.com/thephpleague/skeleton/releases)
+# Currency Converter PHP
+[![Latest Version](https://img.shields.io/github/release/aarestu/currency-converter-php.svg?style=flat-square)](https://github.com/aarestu/currency-converter-php/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/thephpleague/skeleton/master.svg?style=flat-square)](https://travis-ci.org/thephpleague/skeleton)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/skeleton/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/skeleton)
-[![Total Downloads](https://img.shields.io/packagist/dt/league/skeleton.svg?style=flat-square)](https://packagist.org/packages/league/skeleton)
+[![Build Status](https://img.shields.io/travis/aarestu/currency-converter-php/master.svg?style=flat-square)](https://travis-ci.org/aarestu/currency-converter-php)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/aarestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/aarestu/currency-converter-php/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/aarestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/aarestu/currency-converter-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/aarestu/currency-converter-php.svg?style=flat-square)](https://packagist.org/packages/aarestu/currency-converter-php)
 
-**Note:** Replace `skeleton` with the correct package name in the above URLs, then delete this line.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+Currency Converter PHP Library
 
 ## Install
 
@@ -23,7 +19,13 @@ $ composer require aarestu/currency-converter
 ## Usage
 
 ``` php
-echo "Hello World!";
+use AaRestu\CurrencyConverter\CurrencyConverter;
+
+require_once "vendor/autoload.php";
+
+$class = new CurrencyConverter("USD");
+
+echo $class->getRate("IDR");
 ```
 
 ## Testing
@@ -39,7 +41,7 @@ Please see [CONTRIBUTING](https://github.com/aarestu/currency-converter-php/blob
 ## Credits
 
 - [Restu Suhendar](https://github.com/aarestu)
-- [All Contributors](https://github.com/thephpleague/:package_name/contributors)
+- [All Contributors](https://github.com/aarestu/currency-converter-php/contributors)
 
 ## License
 

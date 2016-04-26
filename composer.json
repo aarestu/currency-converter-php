@@ -2,8 +2,10 @@
     "name": "aarestu/currency-converter",
     "description": "Currency Converter PHP Library",
     "keywords": [
-        "league",
-        "package"
+        "money",
+        "currency",
+        "currency-converter",
+        "converter"
     ],
     "homepage": "https://github.com/aarestu/currency-converter-php.git",
     "license": "MIT",
@@ -16,10 +18,11 @@
         }
     ],
     "require": {
-        "php" : ">=5.4.0"
+        "php" : ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
-        "phpunit/phpunit" : "5.3.*"
+        "phpunit/phpunit" : "4.*"
     },
     "autoload": {
         "psr-4": {
