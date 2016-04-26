@@ -55,4 +55,20 @@ class CurrencyConverter
             $this->rates = $res_arr["rates"];
         }
     }
+
+    /**
+     * @return array
+     */
+    public function getRates()
+    {
+        return $this->rates;
+    }
+
+    /**
+     * @param array $rates
+     */
+    public function setRates($rates)
+    {
+        $this->rates = $rates;
+    }
 }
