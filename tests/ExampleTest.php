@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Skeleton\Test;
+namespace AaRestu\CurrencyConverter\Test;
 
 use AaRestu\CurrencyConverter\CurrencyConverter;
 
@@ -14,9 +14,9 @@ class ExampleTest extends \PHPUnit_Framework_TestCase
     public function testGetRate()
     {
         $cc = new CurrencyConverter("USD");
-
+        $cc->setRates(["IDR" => 15000]);
         $rate = $cc->getRate("IDR");
 
-        $this->assert(is_numeric($rate) && $rate > 0);
+        $this->assertTrue(is_numeric($rate) && $rate > 0);
     }
 }
