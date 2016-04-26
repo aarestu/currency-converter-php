@@ -1,10 +1,10 @@
 # Currency Converter PHP
-[![Latest Version](https://img.shields.io/github/release/aarestu/currency-converter-php.svg?style=flat-square)](https://github.com/aarestu/currency-converter-php/releases)
+[![Latest Version](https://img.shields.io/github/release/AaRestu/currency-converter-php.svg?style=flat-square)](https://github.com/AaRestu/currency-converter-php/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/aarestu/currency-converter-php/master.svg?style=flat-square)](https://travis-ci.org/aarestu/currency-converter-php)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/aarestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/aarestu/currency-converter-php/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/aarestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/aarestu/currency-converter-php)
-[![Total Downloads](https://img.shields.io/packagist/dt/aarestu/currency-converter.svg?style=flat-square)](https://packagist.org/packages/aarestu/currency-converter)
+[![Build Status](https://img.shields.io/travis/AaRestu/currency-converter-php/master.svg?style=flat-square)](https://travis-ci.org/AaRestu/currency-converter-php)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/AaRestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/AaRestu/currency-converter-php/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/AaRestu/currency-converter-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/AaRestu/currency-converter-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/AaRestu/currency-converter.svg?style=flat-square)](https://packagist.org/packages/AaRestu/currency-converter)
 
 Currency Converter PHP Library
 
@@ -36,12 +36,12 @@ $ phpunit
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/aarestu/currency-converter-php/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/AaRestu/currency-converter-php/blob/master/CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Restu Suhendar](https://github.com/aarestu)
-- [All Contributors](https://github.com/aarestu/currency-converter-php/contributors)
+- [Restu Suhendar](https://github.com/AaRestu)
+- [All Contributors](https://github.com/AaRestu/currency-converter-php/contributors)
 
 ## License
 
